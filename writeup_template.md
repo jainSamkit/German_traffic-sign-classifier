@@ -26,15 +26,20 @@ signs data set:
 * The number of unique classes/labels in the data set is 43
 
 #### 2. I have provided a bar chart that shows the distribution of number of images belonging to different class.
+Here is an exploratory visualization of the data set
 
 <img src="Visualization.png" width="1200" alt="VISUALIZATION" />
 
+## Preprocessing and Normalization
+Since ,the images in the dataset had three channels,the whole network was going to be complex.Threfore,to reduce the complexity ,conversion to grayscale seems the obvious choice.But ,conversion to grayscale prevents the network to learn the information abstracted in coloe channels.Threfore ,in cases where classification depends on colors,grayscale conversion should not perform at the state of art.In the dataset in this problem,I saw that the images in different class had different shapes and that their shapes according to me was a major crieteria for classification and it worked well further!.Therefore,I converted my images to grayscale.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Normalization of images also reduces the complexity of images and prevent them to overfit on the training data.I normalised my images between -1 and 1.
 
-![alt text][image1]
+## Data Augmentation
 
-###Design and Test a Model Architecture
+Looking at the bar chart above,one can easily 
+
+### Design and Test a Model Architecture
 
 ####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
