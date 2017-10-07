@@ -11,28 +11,24 @@ The goals / steps of this project are the following:
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
 
+To refer to my project code, here is a link to my [project code](https://github.com/jainSamkit/German_traffic-sign-classifier/blob/master/Traffic_Sign_Classifier.ipynb)
 
-# (Image References)
-* I have provided a bar chart that shows the distribution of number of images belonging to different class.
+### Data Set Summary & Exploration
+
+#### 1.The dataset consist of approximately 39000 test images and 12630 training images with dimensions 32X32X3 in RGB color space,obviously! The link to the dataset is (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads).
+
+I used the numpy library to calculate summary statistics of the traffic
+signs data set:
+
+* The size of training set is 39209
+* The size of test set is 12630
+* The shape of a traffic sign image is 32x32x3
+* The number of unique classes/labels in the data set is 43
+
+#### 2. I have provided a bar chart that shows the distribution of number of images belonging to different class.
 
 <img src="Visualization.png" width="1200" alt="VISUALIZATION" />
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
-
-###Data Set Summary & Exploration
-
-####1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
-
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
-
-* The size of training set is ?
-* The size of the validation set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
-
-####2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
