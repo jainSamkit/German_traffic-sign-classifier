@@ -1,4 +1,4 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
 ---
 
@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 * Analyze the softmax probabilities of the new images
 
 
-[//]: # (Image References)
+# (Image References)
 
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
