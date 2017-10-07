@@ -86,10 +86,9 @@ Iterative approach:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![Stop-Sign] <img src="new_images/1.jpg"> ![Bumpy Road] <img src="new_images/2.jpg"> ![Ahead Only] <img src="new_images/3.jpg"> 
+![No Vehicles] <img src="new_images/4.jpg"> ![Go straight or left] <img src="new_images/5.jpg"> ![General caution] <img src="new_images/6.jpg">
 
-The first image might be difficult to classify because ...
 
 #### The model performed optimally on the new images by classifying each of them correctly.I have also shown a visulaisation in my code at tab 116 to show the input and model's subsequent top 3 guesses.Please refer to the code.
 Here are the results of the prediction:
